@@ -1,2 +1,4 @@
-package io.javaMed.likesservice.model;public class Like {
+package io.javaMed.likesservice.model;
+
+public class Like {
 }

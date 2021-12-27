@@ -1,2 +1,8 @@
-package io.javaMed.likesservice.controller;public class LikesController {
+package io.javaMed.likesservice.controller;
+
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class LikesController {
 }
