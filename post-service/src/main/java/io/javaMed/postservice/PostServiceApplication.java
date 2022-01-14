@@ -13,7 +13,6 @@ public class PostServiceApplication {
 	}
 
 	@Bean
-
 	public RestTemplate restTemplate() {
 		return new RestTemplate();
 	}

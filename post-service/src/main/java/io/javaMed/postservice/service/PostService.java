@@ -33,4 +33,8 @@ public class PostService {
 
         return responseTemplateVO;
     }
+
+    public Long getPostNumberOfPosts(Long userId) {
+        return postRepository.countByCreatedBy(userId);
+    }
 }

@@ -1,9 +1,9 @@
 package io.javaMed.postservice.model;
 
 
+import io.javaMed.postservice.model.audit.UserDateAudit;
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.Generated;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
@@ -15,7 +15,7 @@ import javax.persistence.Id;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Post {
+public class Post extends UserDateAudit {
 
 
     @Id
